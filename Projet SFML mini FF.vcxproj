@@ -125,10 +125,13 @@ ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Class.cpp" />
     <ClCompile Include="newMain.cpp" />
+    <ClCompile Include="player.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="allincludive.hpp" />
     <ClInclude Include="entity.hpp" />
     <ClInclude Include="game.hpp" />
+    <ClInclude Include="player.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
