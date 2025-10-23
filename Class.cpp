@@ -1,3 +1,4 @@
+/*
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include <windows.h>
@@ -217,3 +218,4 @@ public:
 		cout << E_name << "lance une attaque sur " << target.getName() << " lui infligeant " << damage << " points de degats " << endl << endl;
 	}
 };
+*/
