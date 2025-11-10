@@ -1,6 +1,6 @@
 #include "Player.hpp"
 
-Player::Player() : sound(bufferIdle)
+Player::Player() : sound(bufferIdle), Entity("Dominous", {100, 100}, 50, 100)
 {
 }
 

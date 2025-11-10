@@ -9,6 +9,9 @@ using namespace sf;
 class Shared {
 public : 
 
+	static const int WINDOW_SIZE_X;
+	static const int WINDOW_SIZE_Y;
+
 	// background
 	static Texture backgroundGameTexture;
 	static Texture backgroundMenuTexture;

@@ -24,7 +24,7 @@ public :
 
 	void attack(Entity& entity);
 
-	void takeDamage();
+	void updateLife();
 
 	virtual void draw(RenderWindow& window) = 0;
 };

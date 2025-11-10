@@ -10,7 +10,7 @@ Game::~Game()
 
 void Game::gameRun()
 {
-    sf::RenderWindow window(sf::VideoMode({ 1920, 1080 }), "SYWAR THE QUEST OF JAAJ");
+    sf::RenderWindow window(sf::VideoMode({ Shared::WINDOW_SIZE_X, Shared::WINDOW_SIZE_Y }), "SYWAR THE QUEST OF JAAJ");
     window.setFramerateLimit(60);
     window.setVerticalSyncEnabled(true);
 
