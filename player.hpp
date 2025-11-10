@@ -28,9 +28,9 @@ protected:
 
 #pragma endregion Animations
 
-	SoundBuffer bufferIdle; // son quand le perso va courir
-	SoundBuffer bufferAttack; // son quand le perso va sauter
-	SoundBuffer bufferHeal; // son quand le perso va utiliser le jetpack
+	SoundBuffer bufferIdle; 
+	SoundBuffer bufferAttack; 
+	SoundBuffer bufferHeal; 
 
 	Sound sound;
 

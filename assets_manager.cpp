@@ -1,0 +1,17 @@
+#include "assets_manager.hpp"
+
+AssetManager::AssetManager()
+{
+	loadAssetsFromFiles();
+}
+
+void AssetManager::loadAssetsFromFiles()
+{
+	//////////////// BACKGROUND ////////////////
+
+	//////////////// PLAYER ////////////////
+
+	//////////////// ENEMIES ////////////////
+
+	//////////////// OTHER ////////////////
+}

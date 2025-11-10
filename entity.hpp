@@ -1,22 +1,30 @@
 #pragma once
-#include "allincludive.hpp"
+#include "datas.hpp"
 
 class Entity {
 protected :
 
+	string name;
 	RectangleShape shape;
 	Texture texture;
 	Vector2f position;
+	bool isAlive = true;
+	int damage;
+	int life;
 
 public : 
 
-	Entity();
+	Entity(string n, Vector2f pos, int dmg, int l);
 	~Entity();
 
-	enum State { IDLE, ATTACK, HEAL, TAKE_DMG };
+	enum class State { IDLE, ATTACK, HEAL, TAKE_DMG };
 	State state;
 
-	virtual void animationManager(float deltaTime) = 0; // gère les animations du personnage avec un switch et un enum
+	void animationManager(float deltaTime, Vector2i vector, Texture texture, float timeAnim); // gère les animations du personnage avec un switch et un enum
+
+	void attack(Entity& entity);
+
+	void takeDamage();
 
 	virtual void draw(RenderWindow& window) = 0;
 };
