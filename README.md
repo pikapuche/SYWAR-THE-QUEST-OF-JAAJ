@@ -1,45 +1,49 @@
 # SYWAR, THE QUEST OF JAAJ
 
-## 1. Présentation
+## 1. Presentation
 
-  SYWAR, THE QUEST OF JAAJ est un mini jeu créé en C++ avec la bibliothèque SFML.
-
-Ce mini jeu est un combat tour par tour où le but est d'éliminer tout les ennemis pour gagner !
-
-Ce mini jeu a dû être créé en 1 semaine (limite de temps imposé par le professeur). C'est mon premier projet de jeu et je n'ai pas modifier son code depuis que j'ai rendu le projet.
-Cela me permet de voir le nombre incalculable d'erreur que j'ai pu faire dans l'organisation de ce code qui est catastrophique pour voir que je continue d'apprendre.
+  SYWAR, THE QUEST OF JAAJ is a small game created in C++ using the SFML library.  
+  
+It’s a turn‑based combat mini‑game where the goal is to defeat all enemies to win !  
+  
+This project had to be completed in just one week (a time limit imposed by the teacher). It was my very first game project,   and I haven’t modified the code since submitting it.  
+It allows me to look back and see the countless mistakes I made in the code’s structure — it’s a complete mess — but it   also shows how much I’ve learned since then.  
 
 ## 2. Gameplay
 
-  Le joueur a pour but d'éliminer tout les ennemis en cliquant sur les cases en haut a gauche qui permet d'effectuer des actions.
-- Infliger des dégats
-- Se soigner
-- Passer son tour
+The player must defeat all enemies by clicking on the action buttons located at the top left of the screen.  
+Available actions include:  
+  
+- Dealing damage  
+  
+- Healing  
+  
+- Skipping your turn  
+  
+You play as a wizard who, in his quest to uncover the magic of the Ancients, must defeat the sorcerers of the Void who seek   to claim these secrets for themselves.  
 
-Vous incarnez un sorcier, qui dans sa quête de découverte de la magie des Anciens, doit terrasser les sorciers du néants qui convoitent les secrets des Anciens !
-
-Vous découvrirez le Fire Worm, un petit vers de feu qui vous crache des boules de feu.
-Le Evil Wizard qui est un méchant sorcier du néant qui utilise des sorts de feu et qui soigne ses alliés.
-Enfin, le ???, un ennemi inconnu d'une puissance inégalé et redoutable.
-
+You will encounter the Fire Worm, a small fire creature that spits fireballs at you.  
+The Evil Wizard, a dark sorcerer from the Void who casts fire spells and heals his allies.  
+And finally, the ???, a mysterious and incredibly powerful enemy.  
+  
 ## 3. Assets
 
-  Pour ce projet, j'ai utilisé des assets provenant de itch.io.
+For this project, I used assets from itch.io.
 
-La plupart vienne d'un créateur que j'aime beaucoup car je trouve ses créations vraiment sympa : LuizMelo 
+Most of them come from a creator whose work I really enjoy: LuizMelo.
 
-FireWorm : LuizMelo (https://luizmelo.itch.io/fire-worm)
+- FireWorm: LuizMelo — https://luizmelo.itch.io/fire-worm
 
-Evil Wizard : LuizMelo (https://luizmelo.itch.io/evil-wizard)
+- Evil Wizard: LuizMelo — https://luizmelo.itch.io/evil-wizard
 
-??? : LuizMelo (https://luizmelo.itch.io/evil-wizard-2)
+- ???: LuizMelo — https://luizmelo.itch.io/evil-wizard-2
 
-Sorcier (Vous) : Free Game Assets (https://free-game-assets.itch.io/free-wizard-sprite-sheets-pixel-art)
+- Wizard (Player): Free Game Assets — https://free-game-assets.itch.io/free-wizard-sprite-sheets-pixel-art
 
-Background : Google (https://www.reddit.com/r/PixelArt/comments/lc3ksr/i_made_origin_isle_from_monster_hunter_into_an/)
+- Background: Google — https://www.reddit.com/r/PixelArt/comments/lc3ksr/i_made_origin_isle_from_monster_hunter_into_an/
 
-Background Menu : Free Game Assets (https://free-game-assets.itch.io/free-sky-with-clouds-background-pixel-art-set)
+- Menu Background: Free Game Assets — https://free-game-assets.itch.io/free-sky-with-clouds-background-pixel-art-set
 
-Musique : Création de moi-même avec MusicLab (sauf celle de victoire)
-
-Sound Effects : Piabay
+- Music: Composed by myself using MusicLab
+  
+- Sound Effects: Pixabay
