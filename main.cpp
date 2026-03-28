@@ -450,7 +450,7 @@ int main()
 #pragma region Menu principal
 
     sf::Texture background_texture_Menu;
-    if (!background_texture_Menu.loadFromFile("C:\\Users\\quent\\source\\repos\\Mini Projet FF\\Image Projet\\free-sky-with-clouds-background-pixel-art-set\\Clouds\\Clouds 6\\1.png")) {
+    if (!background_texture_Menu.loadFromFile("Extra\\TileSheets\\Clouds 6\\1.png")) {
         return -1;
     }
     background_texture_Menu.setSmooth(true);
@@ -460,7 +460,7 @@ int main()
     sprite_background_Menu.setTextureRect(sf::IntRect(0, 0, 1920, 1080));
     //
     sf::Texture background_texture_Menu2;
-    if (!background_texture_Menu2.loadFromFile("C:\\Users\\quent\\source\\repos\\Mini Projet FF\\Image Projet\\free-sky-with-clouds-background-pixel-art-set\\Clouds\\Clouds 6\\2.png")) {
+    if (!background_texture_Menu2.loadFromFile("Extra\\TileSheets\\Clouds 6\\2.png")) {
         return -1;
     }
     background_texture_Menu2.setSmooth(true);
@@ -470,7 +470,7 @@ int main()
     sprite_background_Menu2.setTextureRect(sf::IntRect(0, 0, 1920, 1080));
     //
     sf::Texture background_texture_Menu3;
-    if (!background_texture_Menu3.loadFromFile("C:\\Users\\quent\\source\\repos\\Mini Projet FF\\Image Projet\\free-sky-with-clouds-background-pixel-art-set\\Clouds\\Clouds 6\\3.png")) {
+    if (!background_texture_Menu3.loadFromFile("Extra\\TileSheets\\Clouds 6\\3.png")) {
         return -1;
     }
     background_texture_Menu3.setSmooth(true);
@@ -480,7 +480,7 @@ int main()
     sprite_background_Menu3.setTextureRect(sf::IntRect(0, 0, 1920, 1080));
     //
     sf::Texture background_texture_Menu4;
-    if (!background_texture_Menu4.loadFromFile("C:\\Users\\quent\\source\\repos\\Mini Projet FF\\Image Projet\\free-sky-with-clouds-background-pixel-art-set\\Clouds\\Clouds 6\\4.png")) {
+    if (!background_texture_Menu4.loadFromFile("Extra\\TileSheets\\Clouds 6\\4.png")) {
         return -1;
     }
     background_texture_Menu4.setSmooth(true);
@@ -490,7 +490,7 @@ int main()
     sprite_background_Menu4.setTextureRect(sf::IntRect(0, 0, 1920, 1080));
     //
     sf::Texture background_texture_Menu5;
-    if (!background_texture_Menu5.loadFromFile("C:\\Users\\quent\\source\\repos\\Mini Projet FF\\Image Projet\\free-sky-with-clouds-background-pixel-art-set\\Clouds\\Clouds 6\\5.png")) {
+    if (!background_texture_Menu5.loadFromFile("Extra\\TileSheets\\Clouds 6\\5.png")) {
         return -1;
     }
     background_texture_Menu5.setSmooth(true);
@@ -500,7 +500,7 @@ int main()
     sprite_background_Menu5.setTextureRect(sf::IntRect(0, 0, 1920, 1080));
     //
     sf::Texture background_texture_Menu6;
-    if (!background_texture_Menu6.loadFromFile("C:\\Users\\quent\\source\\repos\\Mini Projet FF\\Image Projet\\free-sky-with-clouds-background-pixel-art-set\\Clouds\\Clouds 6\\6.png")) {
+    if (!background_texture_Menu6.loadFromFile("Extra\\TileSheets\\Clouds 6\\6.png")) {
         return -1;
     }
     background_texture_Menu6.setSmooth(true);
@@ -575,7 +575,7 @@ int main()
     menuAtk.setPosition(20, 25);
     menuAtk.setFillColor(sf::Color(183, 127, 71));
     sf::Font font;
-    if (!font.loadFromFile("C:\\Users\\quent\\source\\repos\\Mini Projet FF\\minecraft\\minecraft.ttf"))
+    if (!font.loadFromFile("Extra\\Minecraft.ttf"))
     {
         return -1;
     }
