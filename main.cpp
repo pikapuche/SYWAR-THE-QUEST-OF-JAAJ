@@ -380,7 +380,7 @@ int main()
     menuMusic.setVolume(Settings_S.volumeMenuMusic);
 
     sf::Music endWinMusic;
-    if (!endWinMusic.openFromFile("Extra\\Musiques\\FinalFantasyWinWAV.wav"))
+    if (!endWinMusic.openFromFile("Extra\\Musiques\\Victoire SYWAR.wav"))
         return -1;
     endWinMusic.setVolume(Settings_S.volumeMenuMusic);
     if (Settings_S.winMusic == true) endWinMusic.play();
